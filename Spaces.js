@@ -3,11 +3,11 @@ function space(text){
     for(let i = 0; i < text.length; i++){
         let current = text.charAt(i)
         if(current == current.toUpperCase() && i > 0){
-            s =  s + ' ' + current
+            s =  s + ' '
         }
-        else{
-            s = s + current
-        }
+        s = s + current
+
+
     }
     return s;
 }
